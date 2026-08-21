@@ -1,0 +1,30 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = { };
+ objectVersion = 56;
+ objects = {
+        B00100000000000000000001 = {isa = PBXBuildFile; fileRef = B00200000000000000000001; };
+        B00100000000000000000002 = {isa = PBXBuildFile; fileRef = B00300000000000000000001; };
+        B00100000000000000000003 = {isa = PBXBuildFile; fileRef = B00400000000000000000001; };
+        B00200000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymProApp.swift; sourceTree = "<group>"; };
+        B00300000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+        B00400000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        B00500000000000000000001 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        B00600000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        B00700000000000000000001 = {isa = PBXGroup; children = (B00800000000000000000001, B00900000000000000000001); sourceTree = "<group>"; };
+        B00800000000000000000001 = {isa = PBXGroup; children = (B00200000000000000000001, B00300000000000000000001, B00400000000000000000001); path = GymPro; sourceTree = "<group>"; };
+        B00900000000000000000001 = {isa = PBXGroup; children = (B00500000000000000000001); name = Products; sourceTree = "<group>"; };
+        B01000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = B01100000000000000000001; buildPhases = (B01200000000000000000001, B00600000000000000000001, B01300000000000000000001); buildRules = (); dependencies = (); name = GymPro; productName = GymPro; productReference = B00500000000000000000001; productType = "com.apple.product-type.application"; };
+        B01200000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00100000000000000000001, B00100000000000000000002, B00100000000000000000003); runOnlyForDeploymentPostprocessing = 0; };
+        B01300000000000000000001 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        B01400000000000000000001 = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = B01500000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = B00700000000000000000001; productRefGroup = B00900000000000000000001; projectDirPath = ""; projectRoot = ""; targets = (B01000000000000000000001); };
+        B01600000000000000000001 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "GYM PRO"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = "com.example.GymPro"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+        B01700000000000000000001 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "GYM PRO"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = "com.example.GymPro"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+        B01800000000000000000001 = {isa = XCBuildConfiguration; buildSettings = { }; name = Debug; };
+        B01900000000000000000001 = {isa = XCBuildConfiguration; buildSettings = { }; name = Release; };
+        B01100000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (B01600000000000000000001, B01700000000000000000001); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        B01500000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (B01800000000000000000001, B01900000000000000000001); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ };
+ rootObject = B01400000000000000000001;
+}
